@@ -1,6 +1,6 @@
 DON'T EDIT THIS FILE!
 
-move_semantics5
+options2
 
 intro1
 intro2
@@ -25,7 +25,13 @@ move_semantics1
 move_semantics2
 move_semantics3
 move_semantics4
+move_semantics5
+structs1
+structs2
+structs3
 enums1
+enums2
+enums3
 modules1
 modules2
 modules3
@@ -34,3 +40,6 @@ options1
 lifetimes1
 lifetimes2
 box1
+threads1
+threads2
+threads3
