@@ -1,6 +1,6 @@
 DON'T EDIT THIS FILE!
 
-options2
+quiz1
 
 intro1
 intro2
@@ -13,6 +13,11 @@ variables6
 functions1
 functions2
 functions3
+functions4
+functions5
+if1
+if2
+if3
 primitive_types1
 primitive_types2
 primitive_types3
@@ -32,14 +37,22 @@ structs3
 enums1
 enums2
 enums3
+strings1
+strings2
+strings3
+strings4
 modules1
 modules2
 modules3
 hashmaps1
 options1
+options2
+options3
 lifetimes1
 lifetimes2
+lifetimes3
 box1
+rc1
 threads1
 threads2
 threads3

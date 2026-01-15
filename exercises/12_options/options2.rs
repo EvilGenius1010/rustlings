@@ -30,9 +30,10 @@ mod tests {
         // TODO: Make this a while-let statement. Remember that `Vec::pop()`
         // adds another layer of `Option`. You can do nested pattern matching
         // in if-let and while-let statements.
-        integer = optional_integers.pop() {
+        while let Some(Some(integer)) = optional_integers.pop() {
             assert_eq!(integer, cursor);
             cursor -= 1;
+            
         }
 
         assert_eq!(cursor, 0);
