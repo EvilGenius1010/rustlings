@@ -33,7 +33,9 @@ fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {
         // basket. Note that you are not allowed to put any type of fruit that's
         // already present!
 
-        if (fruit!=) {}
+        if (fruit!=Fruit::Apple && fruit!=Fruit::Lychee && fruit!=Fruit::Mango) {
+            basket.insert(fruit, 2);
+        }
     }
 }
 
